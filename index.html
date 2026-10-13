@@ -1,137 +1,93 @@
-<!DOCTYPE html>
-<html lang="hi">
+<!DOCTYPE html><html lang="hi">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Diwali & Durga Puja Shopping</title>
-
-    <style>
-        body {
-            font-family: Arial, sans-serif;
-            text-align: center;
-            margin: 0;
-            background: #fff8e7;
-        }
-
-        header {
-            background: #ff6f00;
-            color: white;
-            padding: 25px 10px;
-        }
-
-        h1 {
-            margin: 5px;
-        }
-
-        .section {
-            margin: 20px 10px;
-            padding: 20px;
-            background: white;
-            border-radius: 15px;
-            box-shadow: 0 2px 8px #ccc;
-        }
-
-        .products {
-            display: flex;
-            flex-wrap: wrap;
-            justify-content: center;
-            gap: 15px;
-        }
-
-        .product {
-            width: 140px;
-            padding: 15px;
-            background: #fff3cd;
-            border-radius: 12px;
-        }
-
-        .product h3 {
-            margin: 8px 0;
-        }
-
-        button {
-            background: #e65100;
-            color: white;
-            border: none;
-            padding: 12px 20px;
-            border-radius: 8px;
-            font-size: 16px;
-        }
-
-        footer {
-            margin-top: 25px;
-            padding: 20px;
-            background: #333;
-            color: white;
-        }
-    </style>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Festival Shopping India</title>
+<style>
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background: #fff8e7;
+  color: #333;
+  text-align: center;
+}
+header {
+  background: linear-gradient(135deg, #ff7b00, #d41414);
+  color: white;
+  padding: 28px 12px;
+}
+header h1 { font-size: 30px; }
+section { padding: 20px 12px; }
+h2 { color: #c0392b; }
+.products {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 12px;
+  max-width: 650px;
+  margin: auto;
+}
+.card {
+  background: white;
+  padding: 18px 8px;
+  border-radius: 12px;
+  box-shadow: 0 2px 8px #ddd;
+}
+.emoji { font-size: 38px; }
+button {
+  background: #e65100;
+  color: white;
+  border: none;
+  padding: 12px 18px;
+  border-radius: 8px;
+  font-size: 15px;
+}
+.note { font-size: 13px; color: #666; }
+footer {
+  background: #333;
+  color: white;
+  padding: 18px;
+}
+</style>
 </head>
-
-<body>
-
-<header>
-    <h1>🪔 Happy Diwali 🪔</h1>
-    <h2>आप सभी को दीपावली की हार्दिक शुभकामनाएँ</h2>
-</header>
-
-<div class="section">
-    <h2>🌺 Durga Puja Special 🌺</h2>
-    <p>Durga Puja और Diwali के लिए useful products देखें।</p>
-</div>
-
-<div class="section">
-    <h2>🛍️ Diwali Shopping</h2>
-
-    <div class="products">
-
-        <div class="product">
-            <div style="font-size:45px;">🪔</div>
-            <h3>Diyas</h3>
-            <p>Beautiful Diwali Diyas</p>
-            <button>देखें</button>
-        </div>
-
-        <div class="product">
-            <div style="font-size:45px;">💡</div>
-            <h3>Lights</h3>
-            <p>Decoration Lights</p>
-            <button>देखें</button>
-        </div>
-
-        <div class="product">
-            <div style="font-size:45px;">🎁</div>
-            <h3>Gifts</h3>
-            <p>Festival Gift Ideas</p>
-            <button>देखें</button>
-        </div>
-
-        <div class="product">
-            <div style="font-size:45px;">🏠</div>
-            <h3>Decoration</h3>
-            <p>Home Decoration</p>
-            <button>देखें</button>
-        </div>
-
-    </div>
-</div>
-
-<div class="section">
-    <h2>⭐ Best Sellers</h2>
-    <p>Festival के लिए पसंदीदा products यहाँ देखें।</p>
-
-    <button onclick="showMessage()">Click Me</button>
-</div>
-
-<footer>
-    <p>🪔 Diwali Shopping Website 🪔</p>
-    <p>🌺 Durga Puja Special 🌺</p>
-</footer>
-
-<script>
-    function showMessage() {
-        alert("Welcome to our Festival Shopping Website!");
-    }
-</script>
-
-</body>
+<body><header>
+<h1>🪔 Festival Shopping India 🪔</h1>
+<p>दीपावली और दुर्गा पूजा की हार्दिक शुभकामनाएँ!</p>
+</header><section>
+<h2>🎉 त्योहारों की खास खरीदारी</h2>
+<p>अपने त्योहार को खास बनाने के लिए पसंदीदा सामान देखें।</p>
+</section><section>
+<h2>🛍️ Popular Products</h2>
+<div class="products"><div class="card">
+<div class="emoji">💡</div>
+<h3>Decorative Lights</h3>
+<p>घर की सजावट के लिए</p>
+</div><div class="card">
+<div class="emoji">🪔</div>
+<h3>Decorative Diyas</h3>
+<p>दीपावली की रोशनी</p>
+</div><div class="card">
+<div class="emoji">🎁</div>
+<h3>Gift Hampers</h3>
+<p>अपनों के लिए उपहार</p>
+</div><div class="card">
+<div class="emoji">🌺</div>
+<h3>Puja Decoration</h3>
+<p>पूजा के लिए सजावट</p>
+</div><div class="card">
+<div class="emoji">🍬</div>
+<h3>Sweet Boxes</h3>
+<p>त्योहारों की मिठास</p>
+</div><div class="card">
+<div class="emoji">🏮</div>
+<h3>Home Decoration</h3>
+<p>घर को सुंदर बनाएँ</p>
+</div></div>
+</section><section>
+<h2>🛒 Shop Products</h2>
+<p>जल्द ही यहाँ खरीदारी के लिंक जोड़े जाएँगे।</p>
+<p class="note">Affiliate लिंक जुड़ने के बाद ही उनसे कमीशन मिल सकता है।</p>
+</section><footer>
+<p>Festival Shopping India 🪔</p>
+<p>Happy Diwali & Happy Durga Puja!</p>
+</footer></body>
 </html>
